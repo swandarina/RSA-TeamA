@@ -14,7 +14,7 @@ RUN virtualenv -p python3.7 /env
 ENV VIRTUAL_ENV /env
 ENV PATH /env/bin:$PATH
 ENV GOOGLE_APPLICATION_CREDENTIALS="/app/rsa-anisha-8f291c7027c5.json"
-ENV GOOGLE_STORAGE_BUCKET="rsa-app"
+ENV GOOGLE_STORAGE_BUCKET="teama-284723"
 
 # Install dependencies.
 ADD requirements.txt /app/requirements.txt
